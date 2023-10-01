@@ -1,2 +1,3 @@
 # blood
 The MERN Stack Blood Bank Project is a web application that leverages MongoDB, Express.js, React.js, and Node.js to facilitate blood donation and management. It includes features such as donor registration, blood requests, inventory management, user authentication, and search functionality. The project aims to provide a seamless user experience and efficient blood inventory management for blood banks and donors.The target audience for a MERN blood bank project includes blood donors, blood recipients, medical professionals, blood banks, hospitals, administrators, volunteer organizations, government health agencies, mobile app users, website visitors, and researchers.
+![image](https://github.com/SULABH11/blood/assets/93487589/2d482ab5-cf9f-48b5-a5a4-447e28b5b5e4)
