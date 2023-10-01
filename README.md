@@ -6,6 +6,8 @@ MVC (Model View Controller) Pattern
 * In the Model Side,Mongoose Model is used for Model-View-Controller architectural Pattern.
 * In this case, userSchema defines the structure and validation rules for the "user" entity that the application will work with.the "role" field is required and should have a value from a predefined list of roles ("admin," "organisation," "donor," "hospital").Other fields like "name," "organisationName," "hospitalName," "email," "password," "address," and "phone" have their own validation rules for when they are required or allowed.
 * Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
-* Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used. 
+* Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used.
+* For Security Reasons,Bcrypt library is being used.Bcrypt is a valuable tool to use to hash and store passwords.Bcrypt is a slow-functioning algorithm that takes time to create password hashes and requires time to decrypt them, significantly slowing hacker attempts to break the bcrypt hash.
+* 10 rounds of Salt(default value) has been used to hash the password.
 
 
