@@ -5,3 +5,5 @@ MVC (Model View Controller) Pattern
 In the Model Side,Mongoose Model is used for Model-View-Controller architectural Pattern.In this case, userSchema defines the structure and validation rules for the "user" entity that the application will work with.the "role" field is required and should have a value from a predefined list of roles ("admin," "organisation," "donor," "hospital").Other fields like "name," "organisationName," "hospitalName," "email," "password," "address," and "phone" have their own validation rules for when they are required or allowed.
 Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
 Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used. 
+![image](https://github.com/SULABH11/blood/assets/93487589/5f42a849-c11b-440b-9fb5-b16af800f0ce)
+
