@@ -9,5 +9,6 @@ MVC (Model View Controller) Pattern
 * Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used.
 * For Security Reasons,Bcrypt library is being used.Bcrypt is a valuable tool to use to hash and store passwords.Bcrypt is a slow-functioning algorithm that takes time to create password hashes and requires time to decrypt them, significantly slowing hacker attempts to break the bcrypt hash.
 * 10 rounds of Salt(default value) has been used to hash the password.
+* JWT authentication has been used in login and current user services to securely check if the user entered is right or not.
 
 
