@@ -3,8 +3,9 @@ The MERN Stack Blood Bank Project is a web application that leverages MongoDB, E
 ![image](https://github.com/SULABH11/blood/assets/93487589/d2b00fd8-a730-47cf-9111-fd1afdfa32ba)
 ![image](https://github.com/SULABH11/blood/assets/93487589/2d482ab5-cf9f-48b5-a5a4-447e28b5b5e4)
 MVC (Model View Controller) Pattern
-In the Model Side,Mongoose Model is used for Model-View-Controller architectural Pattern.In this case, userSchema defines the structure and validation rules for the "user" entity that the application will work with.the "role" field is required and should have a value from a predefined list of roles ("admin," "organisation," "donor," "hospital").Other fields like "name," "organisationName," "hospitalName," "email," "password," "address," and "phone" have their own validation rules for when they are required or allowed.
-Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
-Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used. 
+*In the Model Side,Mongoose Model is used for Model-View-Controller architectural Pattern.
+*In this case, userSchema defines the structure and validation rules for the "user" entity that the application will work with.the "role" field is required and should have a value from a predefined list of roles ("admin," "organisation," "donor," "hospital").Other fields like "name," "organisationName," "hospitalName," "email," "password," "address," and "phone" have their own validation rules for when they are required or allowed.
+*Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+*Morgan is an HTTP request level Middleware. It is a great tool that logs the requests along with some other information depending upon its configuration and the preset used. 
 
 
